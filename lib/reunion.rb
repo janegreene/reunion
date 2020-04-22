@@ -32,4 +32,8 @@ class Reunion
     summarized
   end
 
+  def detailed_breakout
+    require "pry"; binding.pry
+  end
+
 end
